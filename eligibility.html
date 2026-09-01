@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eligibilty </title>
+</head>
+<style>
+</style>
+<script>
+    function sum(){
+        let age=parseInt(prompt("enetr the age : "));
+        if(age>=18){
+            let c = confirm("Do you want to submit your response");
+                if(c){
+                    alert("your response is submitted");
+                }else{
+                    alert("Thank you");
+                }
+            
+        }else{
+            alert("you are not eligible");
+        }
+    }
+</script>
+<body>
+    <h1>Eligibility</h1>
+    <input type="button" onclick="sum()" value="Result">
+    
+</body>
+</html>
